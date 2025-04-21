@@ -279,6 +279,17 @@ body {
     box-shadow: 0 8px 32px rgba(120, 60, 180, 0.18);
     border-color: #a78bfa;
 }
+.tsq-images-section .tsq-images figure {
+    display: inline-block;
+    margin: 0 16px 24px 16px;
+    text-align: center;
+}
+.tsq-images-section .tsq-images figcaption {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #444;
+    text-align: center;
+}
 @media (max-width: 700px) {
     .tsq-images {
         gap: 12px;
